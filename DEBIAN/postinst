@@ -1,0 +1,13 @@
+#!/bin/sh
+
+touch /var/log/mysqlgear/info.log
+touch /var/log/mysqlgear/error.log
+touch /var/log/mysqlgear/alert.log
+chown syslog:adm /var/log/mysqlgear -R
+systemctl restart rsyslog
+systemctl daemon-reload
+systemctl enable mysqlgear
+
+
+exit 0
+

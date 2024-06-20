@@ -1,0 +1,25 @@
+{
+    "name": "ztk/socket",
+    "version": "0.1.1",
+    "description": "Socket handling abstraction",
+    "type": "library",
+    "require": {
+        "php": ">=7.4.0",
+        "ext-sockets": "*"
+    },
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Zysik",
+            "email": "support@ztk.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "\\ztk\\Socket": "src/"
+        }
+    }
+}

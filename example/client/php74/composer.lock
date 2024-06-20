@@ -1,0 +1,41 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "54649ab95d4dcd739c49da99b307c589",
+    "packages": [
+        {
+            "name": "cztk/php-fafgearclient",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cztk/php-fafgearclient.git",
+                "reference": "0.1.1"
+            },
+            "type": "library"
+        },
+        {
+            "name": "cztk/php-socket",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cztk/php-socket.git",
+                "reference": "0.1.1"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

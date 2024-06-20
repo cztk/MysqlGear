@@ -1,0 +1,55 @@
+{
+  "name": "ztk/fafgearclientexample",
+  "version": "0.1.0",
+  "description": "Communicate with FafGearServer",
+  "type": "project",
+  "optimize-autoloader": true,
+  "repositories": [
+    {
+      "type":"package",
+      "package": {
+        "name": "cztk/php-fafgearclient",
+        "version":"0.1.1",
+        "source": {
+          "url": "https://github.com/cztk/php-fafgearclient.git",
+          "type": "git",
+          "reference": "0.1.1"
+        }
+      }
+    },
+    {
+      "type":"package",
+      "package": {
+        "name": "cztk/php-socket",
+        "version":"0.1.1",
+        "source": {
+          "url": "https://github.com/cztk/php-socket.git",
+          "type": "git",
+          "reference": "0.1.1"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "cztk/php-fafgearclient": "0.1.1",
+    "cztk/php-socket": "0.1.1"
+  },
+  "require-dev": {
+
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christoph Zysik",
+      "email": "support@ztk.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [
+      "vendor/cztk/php-fafgearclient/src/FafGear",
+      "vendor/cztk/php-socket/src/Socket"
+    ]
+  }
+}

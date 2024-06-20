@@ -1,0 +1,26 @@
+[
+    {
+        "name": "cztk/php-fafgearclient",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cztk/php-fafgearclient.git",
+            "reference": "0.1.1"
+        },
+        "type": "library",
+        "installation-source": "source"
+    },
+    {
+        "name": "cztk/php-socket",
+        "version": "0.1.1",
+        "version_normalized": "0.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cztk/php-socket.git",
+            "reference": "0.1.1"
+        },
+        "type": "library",
+        "installation-source": "source"
+    }
+]

@@ -1,0 +1,20 @@
+[Unit]
+Description=MysqlGear server providing fast forward offloading sql queries with no return
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+Restart=always
+RestartSec=5
+User=root
+PIDFile=/usr/local/run/mysqlgeard/server.pid
+ExecStart=/usr/local/bin/MysqlGear -c /etc/mysqlgear/server.conf -d
+ExecReload=/bin/kill -HUP $MAINPID
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=mysqlgeard
+
+[Install]
+WantedBy=multi-user.target

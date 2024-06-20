@@ -1,0 +1,40 @@
+{
+  "name": "ztk/fafgear",
+  "version": "0.1.1",
+  "description": "Communicate with fire and forget gear server",
+  "type": "library",
+  "repositories": [
+    {
+      "type":"package",
+      "package": {
+        "name": "cztk/php-socket",
+        "version":"0.1.1",
+        "source": {
+          "url": "https://github.com/cztk/php-socket.git",
+          "type": "git",
+          "reference": "0.1.1"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "cztk/php-socket": "0.1.1"
+  },
+  "require-dev": {
+
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christoph Zysik",
+      "email": "support@ztk.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "\\ztk\\FafGear": "src/"
+    }
+  }
+}
